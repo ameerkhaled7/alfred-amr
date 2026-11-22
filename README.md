@@ -10,14 +10,8 @@
 
 <table align="center">
   <tr>
-    <td align="center" width="50%">
-      <img src="alfred-autonomous-mobile-robot/Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" width="400" /><br />
-      <sub><b>Assembled AMR Prototype</b></sub>
-    </td>
-    <td align="center" width="50%">
-      <img src="alfred-autonomous-mobile-robot/Media/cad-assembly.PNG" alt="ALFRED SolidWorks CAD Assembly" width="400" /><br />
-      <sub><b>SolidWorks CAD Assembly</b></sub>
-    </td>
+    <td align="center"><img src="alfred-autonomous-mobile-robot/Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" height="420" /><br /><sub><b>Assembled AMR Prototype</b></sub></td>
+    <td align="center"><img src="alfred-autonomous-mobile-robot/Media/cad-assembly.PNG" alt="ALFRED SolidWorks CAD Assembly" height="420" /><br /><sub><b>SolidWorks CAD Assembly</b></sub></td>
   </tr>
 </table>
 
