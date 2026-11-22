@@ -8,10 +8,18 @@
 
 **ALFRED** is a heavy-duty, differential-drive Autonomous Mobile Robot (AMR) designed and fabricated for indoor warehouse and factory intralogistics. Built from the ground up as a B.Sc. Mechatronics Engineering graduation project at **Nile University** (sponsored by **ITIDA** and **Glide Mobility**), the platform integrates a structural steel/aluminum chassis validated for **500 kg static loads**, dual **350W BLDC hub motors**, a **Jetson Nano + Arduino Mega 2560** dual-compute control architecture, and a **ROS Noetic** SLAM and autonomous navigation stack.
 
-<p align="center">
-  <img src="alfred-autonomous-mobile-robot/Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" width="48%" />
-  <img src="alfred-autonomous-mobile-robot/Media/cad-assembly.PNG" alt="ALFRED SolidWorks CAD Assembly" width="48%" />
-</p>
+<table align="center">
+  <tr>
+    <td align="center" width="50%">
+      <img src="alfred-autonomous-mobile-robot/Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" width="400" /><br />
+      <sub><b>Assembled AMR Prototype</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="alfred-autonomous-mobile-robot/Media/cad-assembly.PNG" alt="ALFRED SolidWorks CAD Assembly" width="400" /><br />
+      <sub><b>SolidWorks CAD Assembly</b></sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
