@@ -9,8 +9,8 @@
 **ALFRED** is a heavy-duty, differential-drive Autonomous Mobile Robot (AMR) designed and fabricated for indoor warehouse and factory intralogistics. Built from the ground up as a B.Sc. Mechatronics Engineering graduation project at **Nile University** (sponsored by **ITIDA** and **Glide Mobility**), the platform integrates a structural steel/aluminum chassis validated for **500 kg static loads**, dual **350W BLDC hub motors**, a **Jetson Nano + Arduino Mega 2560** dual-compute control architecture, and a **ROS Noetic** SLAM and autonomous navigation stack.
 
 <p align="center">
-  <img src="Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" width="48%" />
-  <img src="Media/cad-assembly.png" alt="ALFRED SolidWorks CAD Assembly" width="48%" />
+  <img src="alfred-autonomous-mobile-robot/Media/alfred-prototype.jpg" alt="ALFRED Assembled AMR Prototype" width="48%" />
+  <img src="alfred-autonomous-mobile-robot/Media/cad-assembly.PNG" alt="ALFRED SolidWorks CAD Assembly" width="48%" />
 </p>
 
 ---
@@ -106,10 +106,6 @@ $$\dot{x} = \frac{r(\dot{\phi}_L + \dot{\phi}_R)}{2}\cos\theta, \qquad \dot{y} =
 4. **Stage 3 — Closed-Loop IMU Heading Hold & Ultrasonic Safety Stop:** Implemented proportional yaw-drift correction ($\pm 5\text{ PWM}$ differential trim) using the GY-87 IMU alongside an automatic zero-PWM collision cutoff when front ultrasonic sensors detect obstacles within **50 cm**.
 5. **Stage 4 — Full ROS Noetic SLAM & Autonomous Waypoint Navigation:** Deployed `gmapping`, `amcl`, EKF sensor fusion, and `move_base` on the Jetson Nano, validating `teleop_twist_keyboard` mapping, 1-meter precision goal tracking, and autonomous indoor obstacle avoidance.
 
-<p align="center">
-  <img src="Media/demo-gazebo-rviz.gif" alt="Gazebo and RViz SLAM Simulation" width="48%" />
-  <img src="Media/demo-autonomous-nav.gif" alt="Physical Autonomous Navigation Test" width="48%" />
-</p>
 
 ---
 
@@ -128,13 +124,13 @@ Real-world hardware integration uncovered several undocumented ("black-box") com
 ## Repository Structure
 
 ```text
-ALFRED-AMR/
-├── CAD/                            # SolidWorks assemblies (.STEP), 2D DXFs & ANSYS FEA plots
-├── Docs/                           # Graduation thesis PDF & final defense presentation PDF
+alfred-autonomous-mobile-robot/
+├── CAD/                            # SolidWorks assembly, modeling steps & ANSYS stress analysis
+├── Docs/                           # Graduation thesis PDF
 ├── Firmware/                       # Arduino Mega 2560 (.ino) test & low-level control sketches
-├── Hardware/                       # Bill of Materials (BOM) & component wiring documentation
-├── Media/                          # Prototype photos, CAD renders & navigation demo GIFs
-└── System-Architecture/            # Hardware block diagrams & ROS Noetic node architecture
+├── Hardware/                       # Wiring & hardware build photos
+├── Media/                          # Prototype photo & CAD assembly render
+└── System-Architecture/            # Hardware block diagram
 ```
 
 ---
